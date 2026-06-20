@@ -12,7 +12,7 @@
         },
         {
           "foreground": "#b48ead",
-          "properties": {
+          "options": {
             "fetch_status": true,
             "fetch_upstream_icon": true
           },
@@ -21,7 +21,7 @@
           "type": "git"
         },
         {
-          "properties": {
+          "options": {
             "fetch_package_manager": true,
             "npm_icon": "<#cc3a3a>\ue5fa</> ",
             "yarn_icon": "<#348cba>\ue6a7</>",
@@ -51,7 +51,7 @@
       "segments": [
         {
           "foreground": "white",
-          "properties": {
+          "options": {
             "always_enabled": true,
             "style": "austin"
           },
@@ -61,7 +61,7 @@
         },
         {
           "foreground": "#00C5C7",
-          "properties": {
+          "options": {
             "time_format": "15:04:05"
           },
           "style": "plain",
@@ -77,7 +77,7 @@
       "segments": [
         {
           "foreground": "#88c0d0",
-          "properties": {
+          "options": {
             "style": "full"
           },
           "style": "plain",
