@@ -21,7 +21,16 @@ export default {
   plugins: [
     "prettier-plugin-jsdoc",
     "prettier-plugin-packagejson",
-    "prettier-plugin-sort-json"
+    "prettier-plugin-sort-json",
+    "@ianvs/prettier-plugin-sort-imports"
   ],
-  jsonRecursiveSort: true
+  jsonRecursiveSort: true,
+  importOrder: [
+    "<TYPES>^(node:)",
+    "<TYPES>",
+    "<TYPES>^[.]",
+    "<BUILTIN_MODULES>",
+    "<THIRD_PARTY_MODULES>",
+    "^[.]"
+  ]
 }
