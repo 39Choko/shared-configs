@@ -1,6 +1,6 @@
 {
   "name": "@39choko/prettier-config",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "type": "module",
   "author": "39Choko",
   "description": "Choko's shared config for Prettier",
