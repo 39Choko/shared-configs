@@ -1,20 +1,11 @@
 {
   "name": "shared-configs",
   "description": "Choko's shared configs",
-  "version": "1.0.0",
   "license": "MIT",
-  "author": "39Choko",
-  "packageManager": "bun@1.2.9",
-  "publishConfig": {
-    "access": "public"
+  "author": {
+    "name": "39Choko",
+    "email": "39choko@proton.me",
+    "url": "https://39choko.dev"
   },
-  "peerDependencies": {
-    "prettier": "^3.9.6",
-    "typescript": "^6.0.3"
-  },
-  "dependencies": {
-    "prettier-plugin-jsdoc": "^1.8.1",
-    "prettier-plugin-packagejson": "^3.0.2",
-    "prettier-plugin-sort-json": "^4.2.0"
-  }
+  "packageManager": "bun@1.4.2"
 }
