@@ -1,0 +1,38 @@
+{
+  "name": "@39choko/biome-config",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Choko's config for BiomeJS",
+  "repository": {
+    "url": "https://github.com/39Choko/shared-config",
+    "directory": "packages/biome-config"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "config",
+    "shared-config",
+    "biome",
+    "biome-config"
+  ],
+  "main": "biome.json",
+  "license": "MIT",
+  "author": {
+    "email": "39choko@proton.me",
+    "name": "39Choko",
+    "url": "https://39choko.dev"
+  },
+  "files": [
+    "biome.json"
+  ],
+  "scripts": {
+    "build": "bun run build.ts",
+    "check:fix": "biome check --write ."
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.5.14",
+    "@types/bun": "latest",
+    "typescript": "^7"
+  }
+}
