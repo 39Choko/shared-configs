@@ -10,7 +10,7 @@
 
 ## License
 
-[MIT](./LICENSE) License © 2025 [39Choko](https://github.com/39Choko)
+[MIT](./LICENSE) License © 2026 [39Choko](https://github.com/39Choko)
 
 <!-- Badges -->
 [license-src]: https://img.shields.io/github/license/39choko/shared-config
