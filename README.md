@@ -7,6 +7,7 @@
 | Package | Version | Description |
 |---------|---------|-------------|
 | [@39choko/prettier-config](./packages/prettier-config) | [![npm version](https://img.shields.io/npm/v/@39choko/prettier-config)](https://npmjs.com/package/@39choko/prettier-config) | Choko's shared config for Prettier |
+| [@39choko/biome-config](./packages/biome-config/) | [![npm version](https://img.shields.io/npm/v/@39choko/biome-config)](https://npmjs.com/package/@39choko/biome-config) | Choko's config for BiomeJS |
 
 ## License
 
